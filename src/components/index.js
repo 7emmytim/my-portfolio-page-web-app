@@ -1,0 +1,6 @@
+export { default as Navbar } from "./Navbar/Navbar"
+export { default as InfoSection } from "./InfoSection/InfoSection"
+export { default as AboutSection } from "./AboutSection/AboutSection"
+export { default as ProjectSection } from "./ProjectSection/ProjectSection"
+export { default as ContactSection } from "./ContactSection/ContactSection"
+export { default as Footer } from "./Footer/Footer"

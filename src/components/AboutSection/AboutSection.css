@@ -1,0 +1,27 @@
+#about-page .table td {
+    border-width: 0;
+    padding-left: 0;
+}
+
+#about-page section {
+    margin: 60px auto;
+}
+
+#about-page .left-table-data {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#about-page .right-table-data {
+    font-size: 1rem;
+}
+
+#about-page .r-tab-title {
+    color: #ffce14;
+    /* color: #4B59F7; */
+}
+
+#about-page hr {
+    border: none;
+    border-bottom: 1.5px solid #0f2453;
+}

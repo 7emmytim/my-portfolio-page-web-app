@@ -1,0 +1,21 @@
+#contact-section {
+    background: #0f2453;
+    text-align: center;
+}
+
+#contact-section .icon-sec {
+    color: #fff;
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+#contact-section .icon-sec .icn {
+    font-size: 1.3rem; 
+}
+
+#contact-section input, #contact-section textarea {
+    background: transparent;
+    border-radius: 0;
+    color: #fff;
+    margin: 10px auto;
+}
