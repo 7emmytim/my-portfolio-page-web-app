@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { FaBars, FaTimes, FaHome, FaUser, FaBoxes, FaPhone } from "react-icons/fa"
+import { FaBars, FaTimes, FaHome, FaUser, FaBoxes, FaPhoneAlt } from "react-icons/fa"
 import { IconContext } from "react-icons/lib"
 import {
     Nav, NavLogo,
@@ -48,7 +48,7 @@ const NavBar = () => {
                         </NavItem>
                         <NavItem>
                             <NavLinks to="/contact" onClick={closeMobileMenu} >
-                                Contact {click ? <FaPhone className="text-secondary pb-1" /> : null}
+                                Contact {click ? <FaPhoneAlt className="text-secondary pb-1" /> : null}
                             </NavLinks>
                         </NavItem>
                     </NavMenu>

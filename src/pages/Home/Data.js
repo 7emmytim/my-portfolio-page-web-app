@@ -21,7 +21,7 @@ export const homeObjOne = {
     description: "I am a Front-End Developer (B.Sc. Geophysics). I build Websites and apps with technologies like React Js, Wordpress and Others",
     start: "",
     bRadius: true,
-    img: img3,
+    img: img3
 }
 
 export const homeObjTwoB = {
@@ -36,8 +36,7 @@ export const homeObjTwoB = {
     description: "I build Apps for Web and Mobile platforms. I am an Open-Minded Learner, Problem-Solver, Creative Developer and a Geophysicist.",
     start: "",
     bRadius: true,
-    img: img3,
-    
+    img: img3    
 }
 
 export const homeObjThree = {
@@ -54,8 +53,7 @@ export const homeObjThree = {
     btnShow: true,
     buttonLabel: "Book Now",
     start: "",
-    img: booking,
-    
+    img: booking
 }
 
 export const homeObjThreeB = {
@@ -65,12 +63,11 @@ export const homeObjThreeB = {
     lightTopLine: false,
     lightTextDesc: false,
     lightText: false,
-    topLine: "Want to reach me ?",
+    topLine: "Message Me With Your Job",
     headline: "Contact Timilehin",
-    description: "Message me with your Web and Mobile design/development jobs. Fill the form below to reach out to me directly from this page.",
+    description: "Fill the form below to reach out to me with your jobs.",
     start: "",
-    img: hiking,
-    
+    img: hiking
 }
 
 export const homeObjFour = {
@@ -87,8 +84,7 @@ export const homeObjFour = {
     buttonLabel: "See Works",
     btnLink: "/projects",
     start: "",
-    img: coder4,
-    
+    img: coder4
 }
 
 export const homeObjFourB = {
@@ -102,8 +98,7 @@ export const homeObjFourB = {
     headline: "Projects & Recent Works",
     description: "You can visit my Github Page from the contact page",
     start: "",
-    img: coder,
-    
+    img: coder   
 }
 
 export const homeObjFourC = {
@@ -118,8 +113,7 @@ export const homeObjFourC = {
     description: "Progressive Web App built using React Js. It can add, edit and delete note. Your note is saved locally to your device which means you can access it anytime and it is privy to you.",
     start: "",
     hImage: true,
-    img: notepad,
-    
+    img: notepad
 }
 
 export const homeObjFourD = {
@@ -134,8 +128,7 @@ export const homeObjFourD = {
     description: "App built using Vue Js. You can view results from different countries, you can also read the covid-19 guidlines and safety measures as prescribed by health organizations.",
     start: "",
     hImage: true,
-    img: covidB,
-    
+    img: covidB   
 }
 
 export const homeObjFourE = {
@@ -150,8 +143,7 @@ export const homeObjFourE = {
     description: "App built using Vanilla Js. For taking quiz from different categories.",
     start: "",
     hImage: true,
-    img: quiz,
-    
+    img: quiz    
 }
 
 export const homeObjFourF = {
@@ -166,8 +158,7 @@ export const homeObjFourF = {
     description: "Landing page built with HTML, CSS and JS.",
     start: "",
     hImage: true,
-    img: airdreams,
-    
+    img: airdreams
 }
 
 export const homeObjFive = {
@@ -184,6 +175,5 @@ export const homeObjFive = {
     buttonLabel: "Message Me",
     btnLink: "/contact",
     start: "",
-    img: contact,
-    
+    img: contact
 }
