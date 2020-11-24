@@ -51,7 +51,7 @@ const About = () => {
                                 <td className="right-table-data">HTML, CSS, BOOTSTRAP, JAVASCRIPT (JQUERY)</td>
                             </tr>
                             <tr>
-                                <td className="left-table-data">Application Design</td>
+                                <td className="left-table-data">Web Application Development <br/> (Progressive Web Apps) </td>
                                 <td className="right-table-data">REACT JS, REACT NATIVE, VUE JS, API, FIREBASE.</td>
                             </tr>
                             <tr>

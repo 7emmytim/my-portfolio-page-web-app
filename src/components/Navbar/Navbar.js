@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { FaBars, FaTimes } from "react-icons/fa"
+import { FaBars, FaTimes, FaHome, FaUser, FaBoxes, FaPhone } from "react-icons/fa"
 import { IconContext } from "react-icons/lib"
 import {
     Nav, NavLogo,
@@ -18,29 +18,38 @@ const NavBar = () => {
     return (
         <>
             <IconContext.Provider value={{ color: "#fff" }}>
-                <Nav className="sticky-top">
+                <Nav className="sticky-top nav navbar nav-bar">
                     <NavLogo>
                         <NavIcon to="/">PORT<NavSubIcon>FOLIO</NavSubIcon></NavIcon>
                     </NavLogo>
                     <MobileIcon
-                        style={click ? null : { border: "1px solid #ffce14", padding: "0 8px 8px" }}
+                        className="ml-auto"
                         onClick={handleClick}>
                         {click ? <FaTimes /> : <FaBars />}
                     </MobileIcon>
                     <NavMenu
+                        className="ml-auto"
                         onclick={handleClick}
                         click={click}>
                         <NavItem>
-                            <NavLinks to="/" onClick={closeMobileMenu} >Home</NavLinks>
+                            <NavLinks to="/" onClick={closeMobileMenu} >
+                                Home {click ? <FaHome className="text-secondary pb-1" /> : null}
+                            </NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="/about" onClick={closeMobileMenu} >About</NavLinks>
+                            <NavLinks to="/about" onClick={closeMobileMenu} >
+                                About {click ? <FaUser className="text-secondary pb-1" /> : null}
+                            </NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="/projects" onClick={closeMobileMenu} >Projects</NavLinks>
+                            <NavLinks to="/projects" onClick={closeMobileMenu} >
+                                Projects {click ? <FaBoxes className="text-secondary pb-1" /> : null}
+                            </NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="/contact" onClick={closeMobileMenu} >Contact</NavLinks>
+                            <NavLinks to="/contact" onClick={closeMobileMenu} >
+                                Contact {click ? <FaPhone className="text-secondary pb-1" /> : null}
+                            </NavLinks>
                         </NavItem>
                     </NavMenu>
                 </Nav>

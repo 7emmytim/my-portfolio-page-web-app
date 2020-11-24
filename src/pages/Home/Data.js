@@ -1,3 +1,14 @@
+import img3 from "../../images/3.jpg"
+import booking from "../../images/svg/booking.svg"
+import hiking from "../../images/svg/hiking.svg"
+import coder4 from "../../images/svg/coder4.svg"
+import coder from "../../images/svg/coder.svg"
+import contact from "../../images/svg/contact.svg"
+import notepad from "../../images/notepad.png"
+import covidB from "../../images/covidB.png"
+import quiz from "../../images/quiz.png"
+import airdreams from "../../images/airdreams.jpg"
+
 export const homeObjOne = {
     lightBg: true,
     imgStart: false,
@@ -10,24 +21,8 @@ export const homeObjOne = {
     description: "I am a Front-End Developer (B.Sc. Geophysics). I build Websites and apps with technologies like React Js, Wordpress and Others",
     start: "",
     bRadius: true,
-    img: require('../../images/3.jpg'),
-    alt: "Image"
+    img: img3,
 }
-
-// export const homeObjTwo = {
-//     lightBg: true,
-//     imgStart: true,
-//     textWrapperAlign: false,
-//     lightTopLine: false,
-//     lightTextDesc: false,
-//     lightText: false,
-//     topLine: "Get A Quality Website Today!",
-//     headline: "About Timilehin",
-//     description: "I am an Open-Minded Learner, Problem-Solver, Creative Developer and a Geophysicist. I build apps for Web and Mobile platforms.",
-//     start: "",
-//     img: require('../../images/svg/trainer1.svg'),
-//     alt: "Image"
-// }
 
 export const homeObjTwoB = {
     lightBg: true,
@@ -38,11 +33,11 @@ export const homeObjTwoB = {
     lightText: false,
     topLine: "Get A Quality Website Today!",
     headline: "About Timilehin",
-    description: "I am an Open-Minded Learner, Problem-Solver, Creative Developer and a Geophysicist. I build apps for Web and Mobile platforms.",
+    description: "I build Apps for Web and Mobile platforms. I am an Open-Minded Learner, Problem-Solver, Creative Developer and a Geophysicist.",
     start: "",
     bRadius: true,
-    img: require('../../images/3.jpg'),
-    alt: "Image"
+    img: img3,
+    
 }
 
 export const homeObjThree = {
@@ -59,8 +54,8 @@ export const homeObjThree = {
     btnShow: true,
     buttonLabel: "Book Now",
     start: "",
-    img: require('../../images/svg/booking.svg'),
-    alt: "Image"
+    img: booking,
+    
 }
 
 export const homeObjThreeB = {
@@ -74,8 +69,8 @@ export const homeObjThreeB = {
     headline: "Contact Timilehin",
     description: "Message me with your Web and Mobile design/development jobs. Fill the form below to reach out to me directly from this page.",
     start: "",
-    img: require('../../images/svg/hiking.svg'),
-    alt: "Image"
+    img: hiking,
+    
 }
 
 export const homeObjFour = {
@@ -92,8 +87,8 @@ export const homeObjFour = {
     buttonLabel: "See Works",
     btnLink: "/projects",
     start: "",
-    img: require('../../images/svg/coder4.svg'),
-    alt: "Image"
+    img: coder4,
+    
 }
 
 export const homeObjFourB = {
@@ -103,12 +98,12 @@ export const homeObjFourB = {
     lightTopLine: false,
     lightTextDesc: false,
     lightText: false,
-    topLine: "Github Page - https://github.com/7emmytim",
+    // topLine: "Github Page - https://github.com/7emmytim",
     headline: "Projects & Recent Works",
-    description: "You can visit my Github Page with the link above for more of my works",
+    description: "You can visit my Github Page from the contact page",
     start: "",
-    img: require('../../images/svg/coder.svg'),
-    alt: "Image"
+    img: coder,
+    
 }
 
 export const homeObjFourC = {
@@ -118,13 +113,13 @@ export const homeObjFourC = {
     lightTopLine: false,
     lightTextDesc: false,
     lightText: false,
-    topLine: "https://notepad-clone.web.app/",
+    // topLine: "https://notepad-clone.web.app/",
     headline: "NOTEPAD APP",
-    description: "Web-based app built using React Js. It can add, edit and delete note. Your note is saved locally to your device which means you can access it anytime and it is privy to you.",
+    description: "Progressive Web App built using React Js. It can add, edit and delete note. Your note is saved locally to your device which means you can access it anytime and it is privy to you.",
     start: "",
     hImage: true,
-    img: require('../../images/notepad.png'),
-    alt: "Image"
+    img: notepad,
+    
 }
 
 export const homeObjFourD = {
@@ -134,13 +129,13 @@ export const homeObjFourD = {
     lightTopLine: false,
     lightTextDesc: false,
     lightText: false,
-    topLine: "http://covidtestapp.web.app/",
+    // topLine: "http://covidtestapp.web.app/",
     headline: "COVID-19 APP",
     description: "App built using Vue Js. You can view results from different countries, you can also read the covid-19 guidlines and safety measures as prescribed by health organizations.",
     start: "",
     hImage: true,
-    img: require('../../images/covidB.png'),
-    alt: "Image"
+    img: covidB,
+    
 }
 
 export const homeObjFourE = {
@@ -150,13 +145,13 @@ export const homeObjFourE = {
     lightTopLine: false,
     lightTextDesc: false,
     lightText: false,
-    topLine: "https://7emmytim.github.io/my-quiz-app",
+    // topLine: "https://7emmytim.github.io/my-quiz-app",
     headline: "QUIZ APP",
     description: "App built using Vanilla Js. For taking quiz from different categories.",
     start: "",
     hImage: true,
-    img: require('../../images/quiz.png'),
-    alt: "Image"
+    img: quiz,
+    
 }
 
 export const homeObjFourF = {
@@ -168,11 +163,11 @@ export const homeObjFourF = {
     lightText: false,
     // topLine: "Airdreams standard trampolining",
     headline: "AIRDREAMS WEBSITE",
-    // description: "Website built for an upcoming company with HTML, CSS and JS.",
+    description: "Landing page built with HTML, CSS and JS.",
     start: "",
     hImage: true,
-    img: require('../../images/airdreams.jpg'),
-    alt: "Image"
+    img: airdreams,
+    
 }
 
 export const homeObjFive = {
@@ -189,6 +184,6 @@ export const homeObjFive = {
     buttonLabel: "Message Me",
     btnLink: "/contact",
     start: "",
-    img: require('../../images/svg/contact.svg'),
-    alt: "Image"
+    img: contact,
+    
 }

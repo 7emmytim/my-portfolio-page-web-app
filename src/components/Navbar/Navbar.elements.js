@@ -3,14 +3,16 @@ import { NavLink } from "react-router-dom"
 
 export const Nav = styled.nav`
 background: #0f2453;
-width: 100%;
-display: flex;
 font-size: 1.2rem;
-margin: 0 auto;
+width: 100%;
 padding: 5px 80px;
 
 @media screen and (max-width: 991px) {
-    padding: 10px 35px; 
+    padding: 10px 35px;
+}
+
+@media screen and (max-width: 250px) {
+    display: none;
 }
 `
 export const NavLogo = styled.div`
@@ -36,6 +38,10 @@ padding: 0;
 
 @media screen and (max-width: 400px) {
     font-size: 1.5rem; 
+}
+
+@media screen and (max-width: 300px) {
+    font-size: 1.3rem;
 }
 `
 
@@ -63,15 +69,21 @@ display: none;
 @media screen and (max-width: 960px) {
     display: block;
     position: absolute;
-    top: 3vh;
-    right: 6vh;
-    font-size: 1.3rem;
+    bottom: 23.5px;
+    right: 50px;
+    font-size: 2.3rem;
     cursor: pointer;
 }
 
 @media screen and (max-width: 400px) {
-    top: 2vh;
-    right: 6vh;
+    bottom: 21.8px;
+    right: 35px;
+    font-size: 1.8rem;
+}
+
+@media screen and (max-width: 320px) {
+    bottom: 22px;
+    font-size: 1.5rem;
 }
 `
 
@@ -132,7 +144,7 @@ text-decoration: none;
 
 @media screen and (max-width: 960px) {
     color: #fff;
-    font-size: 1.1rem;
+    font-size: 1.8rem;
     text-align: center;
     width: 100%;
     display: table;

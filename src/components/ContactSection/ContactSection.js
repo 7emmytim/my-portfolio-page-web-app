@@ -1,29 +1,24 @@
 import React from 'react'
-import { FaEnvelope, FaWhatsappSquare, FaLinkedin, FaGithub, FaPhoneSquareAlt } from 'react-icons/fa'
+import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa'
 import MyForm from "./MyForm"
 import "./ContactSection.css"
 
 const ContactSection = () => {
     return (
-        <div className="container-fluid p-5" id="contact-section">
-            <div className="row">
-                <div className="col-md-6 py-auto my-auto">
-                    <MyForm />
-                </div>
-                <div className="col-md-6 py-auto my-auto">
-                    <div className="lead icon-sec">
-                        <div className="my-3">
-                            <FaPhoneSquareAlt className="icn" /> <FaWhatsappSquare className="icn" /> 09025993113
-                        </div>
-                        <div className="my-3">
-                            <FaEnvelope className="icn" /> omotugbatimilehin7@gmail.com
-                        </div>
-                        <div className="my-3">
-                            <FaLinkedin className="icn" /> https://www.linkedin.com/in/timilehin-omotugba-b551b5174/
-                        </div>
-                        <div className="my-3">
-                            <FaGithub className="icn" /> https://github.com/7emmytim
-                        </div>
+        <div className="container-fluid p-5 mt-5" id="contact-section">
+            <div className="py-auto my-auto">
+                <MyForm />
+                <div className="lead mt-5">
+                    <div className="my-3 text-center">
+                        <a href="https://www.linkedin.com/in/timilehin-omotugba-b551b5174/" target="_blank" rel="noreferrer" >
+                            <FaLinkedin className="icn" />
+                        </a>
+                        <a href="https://github.com/7emmytim" target="_blank" rel="noreferrer" >
+                            <FaGithub className="icn" />
+                        </a>
+                        <a href="mailto:omotugbatimilehin7@gmail.com" target="_blank" rel="noreferrer" aria-label='Email'>
+                            <FaEnvelope className="icn" />
+                        </a>
                     </div>
                 </div>
             </div>
