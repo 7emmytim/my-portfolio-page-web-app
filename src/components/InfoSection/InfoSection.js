@@ -15,16 +15,16 @@ function InfoSection({
 }) {
   return (
     <>
-      <InfoSec className="container py-5 mb-3" lightBg={lightBg}>
+      <InfoSec className="container py-5 mb-4" lightBg={lightBg}>
         <InfoRow className="row m-0" imgStart={imgStart}>
           <div className="col-lg-6">
             <TextWrapper textWrapperAlign={textWrapperAlign}>
               <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
-              <Heading lightText={lightText} className="display-4 my-3">{headline}</Heading>
+              <Heading lightText={lightText} className="display-4 my-1">{headline}</Heading>
               <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
               {btnShow ? (
                 <Link to={btnLink}>
-                  <button className="btn btn-primary py-3 px-4 btn-lg mb-5 mt-3" >
+                  <button className="btn btn-primary py-3 px-4 btn-lg mb-5 mt-1" >
                     {buttonLabel}
                   </button>
                 </Link>

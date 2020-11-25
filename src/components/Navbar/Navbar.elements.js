@@ -144,7 +144,7 @@ text-decoration: none;
 
 @media screen and (max-width: 960px) {
     color: #fff;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     text-align: center;
     width: 100%;
     display: table;
